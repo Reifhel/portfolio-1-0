@@ -1,6 +1,0 @@
-[submodule "páginas/Instagram"]
-	path = páginas/Instagram
-	url = https://github.com/Reifhel/Instagram-homepage
-[submodule "páginas/pokedex"]
-	path = páginas/pokedex
-	url = https://github.com/Reifhel/pokedex
