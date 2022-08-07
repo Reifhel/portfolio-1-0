@@ -182,6 +182,45 @@ body{
     text-decoration: none;
 }
 
+#Projetos{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.lista_projetos{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.projetos{
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    background-color: rgb(132, 42, 150);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #4fc3dc;
+    align-items: flex-start;
+}
+.projetos a{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+/* animação background */
 .container{
     z-index: -100;
     width: calc(100% - 200px);
@@ -214,7 +253,7 @@ body{
 }
 @keyframes animate{
     0%{
-        transform: translateY(80vh) scale(0);
+        transform: translateY(120vh) scale(0);
     }
     100%{
         transform: translateY(-10vh) scale(1);
