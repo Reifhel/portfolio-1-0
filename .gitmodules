@@ -1,0 +1,3 @@
+[submodule "páginas/pokedex"]
+	path = páginas/pokedex
+	url = https://github.com/Reifhel/pokedex.git
