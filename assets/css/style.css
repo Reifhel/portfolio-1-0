@@ -46,11 +46,13 @@ body{
     max-width: 30vh;
     max-height: 30vh;
     border-radius: 50%;
+    border: 3px solid rgb(255,255,255);
 }
 .apresentacao h1{
     font-size: 5vh;
     font-weight: bold;
     margin-top: 20px;
+    text-align: center;
 }
 .apresentacao hr{
     width: 100%;
@@ -340,5 +342,9 @@ body{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+    .container{
+        width: 100%;
+        left: 0;
     }
 }
