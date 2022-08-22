@@ -87,7 +87,29 @@ body{
     color: rgb(0, 0, 0);
     text-align: center;
 }
-
+.fun-facts{
+    list-style: none;
+}
+.fun-facts li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.fun-facts a{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    transition: ease 0.5s;
+}
+.fun-facts a:hover{
+    transform: scale(1.3);
+}
+.fun-facts p{
+    font-size: 2.5vh;
+    margin: 0;
+}
 .footer{
     padding-top: 20px;
     width: 100%;
@@ -190,6 +212,7 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
+
 
 .sociais{
     margin: auto;
